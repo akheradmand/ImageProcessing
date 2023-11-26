@@ -16,4 +16,4 @@ for i in range(0,n):
 cv2.imshow("",blank_image)
 cv2.waitKey()
 # print(blank_image)
-cv2.imwrite("chess.jpg",blank_image)
+cv2.imwrite("outputs/chess.jpg",blank_image)

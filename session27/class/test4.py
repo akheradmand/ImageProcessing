@@ -6,7 +6,7 @@ _, frame = cap.read()
 rows = frame.shape[0]
 cols = frame.shape[1]
 
-writer = cv2.VideoWriter('webcam.mp4',
+writer = cv2.VideoWriter('class/webcam.mp4',
                          cv2.VideoWriter_fourcc(*'MJPG'),
                          30, (cols, rows))
 

@@ -1,7 +1,7 @@
 import cv2
 import time
 
-image = cv2.imread("wolf.jpg")
+image = cv2.imread("class/wolf.jpg")
 image = cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
 
 print(image.shape)
